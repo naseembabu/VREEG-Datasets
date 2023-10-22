@@ -16,6 +16,7 @@ recorded in four different situations while watching the videos according to the
 The total time needed in data acquisition considered setup time as tsetup, time taken during relaxation tR, for happy emotion tH, fear emotion tF , neutral emotion tN , sad emotion tS, and total time ttotal calculated as for one subject. 
 
 ttotal = tsetup + tH + tR + tF + tR + tN + tR + tS
+
 ttotal = tsetup + 3 × tR + tH + tF + tN + tS
 
 Note: The current repository contains only a subset of files for each class in VREEG Dataset folder. The complete dataset is available upon request. Researchers interested in obtaining the dataset can contact us via email and should include the purpose of their dataset usage in the email. Upon receiving the request, we will grant access to the complete dataset.
