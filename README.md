@@ -20,4 +20,5 @@ ttotal = tsetup + 3 × tR + tH + tF + tN + tS
 
 Note: The current repository contains only a subset of files for each class in VREEG Dataset folder. The complete dataset is available upon request. Researchers interested in obtaining the dataset can contact us via email and should include the purpose of their dataset usage in the email. Upon receiving the request, we will grant access to the complete dataset.
 
-Contacts: vreegemotionsdataset@gmail.com
+
+[Email me: vreegemotionsdataset@gmail.com](mailto:vreegemotionsdataset@gmail.com)
