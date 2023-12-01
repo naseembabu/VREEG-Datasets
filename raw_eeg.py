@@ -1,4 +1,3 @@
-
 from tensorflow.keras.optimizers import Adam
 from tensorflow import keras
 from sklearn.preprocessing import StandardScaler
@@ -122,14 +121,6 @@ data_array = np.load('raw_eeg.npy')
 # Load the saved stacked_array
 label_array = np.load('raw_eeg_label.npy')
 
-#print(data_array.shape)
-#print(label_array.shape)
-# Generate synthetic EEG data and labels for demonstration
-num_segments = data_array.shape[0]
-num_channels = data_array.shape[1]
-num_samples_in_one_file = data_array.shape[2]
-#print(num_segments)
-#print(num_samples_in_one_file)
 num_classes = 4
 
 # Split the decomposed data into training and testing sets
