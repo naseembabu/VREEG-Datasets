@@ -50,7 +50,7 @@ def read_data(file_path):
     croped = raw.crop(tmin=0, tmax=T_desired)
     datax = croped	
     datax.set_eeg_reference()
-    epochs = mne.make_fixed_length_epochs(datax, duration=30, overlap=0, preload=True)
+    epochs = mne.make_fixed_length_epochs(datax, duration=1, overlap=0, preload=True)
     return epochs #trials,channel,length
 
 negative_epochs_array=[read_data(subject) for subject in negative]
